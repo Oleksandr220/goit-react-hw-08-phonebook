@@ -1,0 +1,10 @@
+.registerForm {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.submitForm {
+  text-align: left;
+  margin-top: 20px;
+}
