@@ -1,6 +1,6 @@
-import React from 'react';
-import './ContactForm.css';
-import { Button } from '@material-ui/core';
+import React from "react";
+import "./ContactForm.css";
+import { Button } from "@material-ui/core";
 
 export default function ContactForm({
   name,
@@ -36,11 +36,9 @@ export default function ContactForm({
           required
         />
       </label>
-      <button type="submit">
-        <Button variant="contained" color="primary" size="small">
-          Submit
-        </Button>
-      </button>
+      <Button variant="contained" color="primary" size="small" type="submit">
+        Submit
+      </Button>
     </form>
   );
 }
